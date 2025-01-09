@@ -18,8 +18,7 @@ E só após rode:
 
 
 ```
-    npm start
-```
+
 
 **E no ``request.http``. Teste a API**
 
