@@ -1,0 +1,25 @@
+# TEste de Health Check
+GET http://localhost:3030/health
+Accept: application/json
+
+###
+
+# Criar um novo usuário
+POST http://localhost:3030/users
+Content-Type: application/json
+
+{
+    "name": "Leonardo Braga S. de Souza",
+    "email": "leo@email.com"
+}
+
+###
+
+# Obter um usuário pelo ID (substitua {userId} pelo ID retornado na resposta da criação de um usuário
+GET http://localhost:3030/users/{userId}
+Accept: application/json
+###
+
+# Listar todos os usuários
+GET  http://localhost:3030/users
+Accept: application/json

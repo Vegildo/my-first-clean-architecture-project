@@ -1,0 +1,48 @@
+# Node.js
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diretórios temporários ou de build
+temp/
+tmp/
+dist/
+build/
+
+# Diretório de relatórios de cobertura do Jest
+coverage/
+
+# Arquivos de sistema e de IDEs/editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea/
+*.vscode/
+*.history/
+.vscode/settings.json
+
+# Configurações de lockfile do pacote
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Arquivos de testes gerados automaticamente
+jest-test-results.json
+
+# Outros casos comuns
+*.log.[0-9]*
+*.bak
+*.out
+*.gz
+*.tgz
+*.orig
